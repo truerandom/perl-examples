@@ -1,0 +1,21 @@
+<tmpl_loop name=datos>
+   <div>
+    <fieldset>
+              <br/>Usuario:
+              <input type="text" name="user" value="<tmpl_var name=user>" placeholder="User" />
+              <br/>Password:
+              <input type="text" name="pass" value="<tmpl_var name=pass>" placeholder="Pass"/>
+              <br/>UID:
+              <input type="text" name="uid" value="<tmpl_var name=uid>" placeholder="uid"/>
+              <br/>GID:
+              <input type="text" name="gid" value="<tmpl_var name=gid>" placeholder="gid"/>
+              <br/>DESC:
+              <input type="text" name="desc" value="<tmpl_var name=desc>" placeholder="NULL" />
+              <br/>HOME:
+              <input type="text" name="home" value="<tmpl_var name=home>" placeholder="home"/>
+              <br/>SHELL:
+              <input type="text" name="shell" value="<tmpl_var name=shell>" placeholder="shell"/>
+          </form>
+    </fieldset>
+   </div>
+</tmpl_loop>
